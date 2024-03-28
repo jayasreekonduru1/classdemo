@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- vh=viewport height, 1vh=1% of screen height, vW=viewport width -->
+    <!--initial-scale: zoom level 1.0, intial ga when page is loaded what is the zoom level-->
+    <meta name="description" content="HTML Traning">
+    <!-- description is long content -->
+    <meta name="keywords" content="html, audio,video,iframe">
+    <meta name="title" content="10k coders">
+    <!-- title is a short content just a title -->
+    <meta name="author" content="Jayasree">
+    <meta http-equiv="refresh" content="5;url=">
+    <!-- (after 5 seconds it will navigate to another page which we have provided in url) -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- earlier internet explorer, it is not compatibile like other browsers, so edge is latest version so they have to use edge ani use chesthamu -->
+    <title>Document</title>
+    <meta http-equiv="refresh" content="5;url=">
+</head>
+<body>
+    <video controls 
+        muted 
+        loop 
+        preload="auto" 
+        poster="" 
+        height="300px" 
+        width="500px"
+    >
+        <source src="" type="video/mp3">
+        <track src=".vtt" label="English" srclang="en"/>
+        <track src="" label="Telugu" srclang="te"/><!-- we can add captions to a video -->
+    </video>
+
+    <!-- inline frame -->
+    <iframe src="./Day_7_form_validations/index.html" 
+    frameborder="0"
+    height="300px" width="400px"></iframe>
+
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/B3_7YPYKQb8" title="Disaster Recovery | A Day in My Life | Dresses Sale Updates and Accidents | nayalooks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <address>
+        1-7-210, MG Road, Hyderabad
+    </address>
+    <!-- This a semantic element for address -->
+
+    <object data="./image/jpg" type="image/jpg" width="500px" height="300px"></object>
+    <!-- It ia a container,We can add any external data(video, other pages), we prefer video audio tag for video or audio tags but generally this is used to add plugin file -->
+
+    <details>
+        <summary>Summary</summary>
+        <p>this is a data</p>
+    </details>
+    <!-- This is call accordian -->
+
+    <span><bdo dir="rtl"></bdo></span>
+    <!-- for reversing the text -->
+
+    <code>
+        &lt;html&gt;<br>
+    </code>
+
+    <kbd>ctrl+M</kbd> 
+    <!-- keyboard shortcuts -->
+
+    <meter max="10" min="1" value="5"></meter>
+    <!-- scaler values like whcih we can measure like disk spaces, temp-->
+
+    <progress max="10" min="1" value="5"></progress>
+    <!-- progress which we cannot count like skills, work progress, task  -->
+
+    <input type="range">
+    <!-- range is input element where user can change -->
+
+    <marquee behavior="" direction="right">BREAKING NEWS</marquee>
+
+    <img src="" alt="" usemap="myMap">
+    <map name="myMap">
+        <area shape="rect" coords="10 10 10 10" href="" alt="">
+    </map>
+    <!-- if want to display a content when we click on that area on any specific part in an image -->
+    
+</body>
+</html>
